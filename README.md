@@ -1,6 +1,6 @@
 # redis-mysql-orders
-## MySQL Database:
-  - orders:
+## MySQL Database: orders_test 
+  - orders:
     id: Int, PRIMARY KEY, AUTO INCREASE
     orderDate: Date
   - orderDetails:
