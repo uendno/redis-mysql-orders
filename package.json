@@ -1,0 +1,24 @@
+{
+  "name": "redis-mysql-orders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "insert-redis": "node insert-redis",
+    "insert-mysql": "node insert-mysql",
+    "test-redis": "node test-redis",
+    "test-mysql": "node test-mysql"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.4.0",
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "mysql": "^2.13.0",
+    "redis": "^2.7.1",
+    "redis-stream": "^0.1.0"
+  }
+}
